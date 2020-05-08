@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import todosReducer from './todos/todo.slice'
+import userReducer from './user/user.slice'
 
 export default combineReducers({
-  todos: todosReducer
+  user: userReducer,
 })
