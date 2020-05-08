@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+}
+
+.page-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: $m-size;
+  background-color: $off-white;
+}

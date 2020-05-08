@@ -1,0 +1,22 @@
+// Header
+.Header {
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 10%;
+  background-color: $drk-blue;
+  width: 100%;
+  font-size: $m-size;
+
+  .link-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    a {
+      font-size: $l-size;
+      color: $b-yellow;
+    }
+  }
+}
